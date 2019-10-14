@@ -43,7 +43,7 @@
   </form
   ```
 
-- Nói đơn giản thì khi ta nhập thì `password` sẽ được đẩy lên hàm `verify()` ngay khi chúng ta click chuột vào submit vào hàm `verify()` nhờ *attribute* `onclick`
+- Nói đơn giản thì khi ta nhập `password` sẽ được đẩy lên hàm `verify()` ngay khi chúng ta click chuột vào submit nhờ *attribute* `onclick`
 
 - Biến ``checkpass` nhờ vào `checkpass = document.getElementById("pass").value;` sẽ lưu giá tri của *password* mà ta nhập vào
 
