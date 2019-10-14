@@ -6,7 +6,7 @@
 
 - Sau khi *login* thì thế này
 
-  ![images](/home/kaito/Pictures/images/Selection_002.png)
+  ![images](images/Selection_002.png)
 
 - Có thể thấy dù *login* với *user* và *pass* nào thì cũng thấy dòng thông báo trên. Thử xem có cơ chế xác thực nào trên *cookie* không, vì phần đa các bài từ *easy* đến *medium* đều liên quan tới *cookie*
 
