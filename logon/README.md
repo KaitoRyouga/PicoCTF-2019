@@ -10,6 +10,8 @@
 
 - Có thể thấy dù *login* với *user* và *pass* nào thì cũng thấy dòng thông báo trên. Thử xem có cơ chế xác thực nào trên *cookie* không, vì phần đa các bài từ *easy* đến *medium* đều liên quan tới *cookie*
 
+- Ở đây mình sẽ dùng add-on `editthiscookie` để edit cookie
+
   ![images](images/3.jpg)
 
 - Ta thấy có 1 *cookie* với *key* là *admin* và *value* là *Flalse*, có thể suy luận ra được ngay là nếu đổi *value* từ *False* sang *True* thì *server* sẽ xác thực ta với tư cách là *admin*
