@@ -45,7 +45,7 @@
 
 - Nói đơn giản thì khi ta nhập `password` sẽ được đẩy lên hàm `verify()` ngay khi chúng ta click chuột vào submit nhờ *attribute* `onclick`
 
-- Biến ``checkpass` nhờ vào `checkpass = document.getElementById("pass").value;` sẽ lưu giá tri của *password* mà ta nhập vào
+- Biến `checkpass` sẽ lưu giá tri của *password* mà ta nhập nhờ vào `checkpass = document.getElementById("pass").value;`
 
 - Hàm *substring*  có cấu trúc sau`string.substring(start, end)`
 
