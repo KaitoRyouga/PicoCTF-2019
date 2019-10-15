@@ -72,10 +72,10 @@
 
 - VD thử với biến `0x4`, ta dùng câu lệnh `alert(0x4)`, để xem `0x4` là gì
 
-![1](/home/kaito/Pictures/Selection_002.png)
+![1](Selection_002.png)
 
 - Tiếp tục, thử xem `_0x4b5b('0x3')` là gì với *alert()*
 
-![2](/home/kaito/Pictures/Selection_003.png)
+![2](Selection_003.png)
 
 - OK. Vậy là cứ chịu khó dò như vậy thì bạn sẽ có tất cả các biến quan trọng của đề. Có để viết 1 tool nhỏ với js tuy nhiên biến cũng ít, làm tay cho nhanh, tool làm gì :v 
