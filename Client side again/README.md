@@ -68,7 +68,7 @@
 
 - Chỉ cần biết những phần tử như kia bên trong là gì thì ta sẽ giải được bài
 
-- OK, mình có *trick* nhỏ là dùng *console* của *server* để tìm với điều kiện người ra đề không khóa nó đi :v
+- OK, mình có *trick* nhỏ là dùng *console* của *server* (nhớ là dùng *server* của đề với F12, qua tab console để thực hiện) để tìm với điều kiện người ra đề không khóa nó đi :v
 
 - VD thử với biến `0x4`, ta dùng câu lệnh `alert(0x4)`, để xem `0x4` là gì
 
