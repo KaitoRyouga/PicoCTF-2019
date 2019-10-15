@@ -18,11 +18,11 @@
 
 #### 8. [Irish Name Repo 1](https://github.com/KaitoRyouga/PicoCTF-2019/tree/master/Irish%20Name%20Repo%201)
 
-#### 9. Irish Name Repo 2
+#### 9. [Irish Name Repo 2](https://github.com/KaitoRyouga/PicoCTF-2019/tree/master/Irish%20Name%20Repo%202)
 
 #### 10. Empire 1
 
-#### 11. Irish Name Repo 3
+#### 11. [Irish Name Repo 3](https://github.com/KaitoRyouga/PicoCTF-2019/tree/master/Irish%20Name%20Repo%203)
 
 #### 12. JaWT Scratchpad
 
