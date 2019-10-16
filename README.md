@@ -6,7 +6,7 @@
   - Phần lớn các tool mình viết ra mình sẽ không giải thích (chủ yếu là python), mình chỉ giải thích về payload. Nếu không hiểu thì có thể *research* để biết thêm. *research* cũng không hiểu có thể post lên nhóm chat hoặc inbox hỏi mình
   - 1 vài tool nhỏ về *javascript* thì mình có dùng cách hơi xàm, nhưng vẫn ra flag. Mình chỉ lấy tool lại lúc mình giải bài này thôi, lúc đó cũng không rảnh mà viết ra 1 cái hoàn chình, thà làm tay còn nhanh hơn. Cũng vì 1 phần kiến thức *javascript* của mình hơi ít nữa
   
-- Về các lỗi mà người ra đề đưa ra mình sẽ tổng hợp 1 cách chi tiết nhất có thể nếu có thời gian
+- Về các lỗi mà người ra đề đưa ra mình sẽ tổng hợp 1 cách chi tiết nhất ở ngay đây có thể nếu có thời gian
 
 - Về phần câu Empire 1 nếu có thời gian mình sẽ giải lại theo cách hay hơn (s)
 
