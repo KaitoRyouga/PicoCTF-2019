@@ -4,6 +4,9 @@
   - Hiểu biết về `Burp suite`, ít thôi, không cần nhiều
   - Phần lớn các tool mình viết ra mình sẽ không giải thích (chủ yếu là python), mình chỉ giải thích về payload. Nếu không hiểu thì có thể *research* để biết thêm. *research* cũng không hiểu có thể post lên nhóm chat hoặc inbox hỏi mình
   - 1 vài tool nhỏ về *javascript* thì mình có dùng cách hơi xàm, nhưng vẫn ra flag. Mình chỉ lấy tool lại lúc mình giải bài này thôi, lúc đó cũng không rảnh mà viết ra 1 cái hoàn chình, thà làm tay còn nhanh hơn. Cũng vì 1 phần kiến thức *javascript* của mình hơi ít nữa
+  
+- Về chi tiết các lỗi mà người ra đề đưa ra mình sẽ tổng hợp 1 cách chi tiết nhất nếu có thời gian
+
 ---
 ### Mục lục
 
@@ -33,7 +36,7 @@
 
 #### 13. [Java Script Kiddie](https://github.com/KaitoRyouga/PicoCTF-2019/tree/master/Java%20Script%20Kiddie)
 
-#### 14. Empire 2
+#### 14. [Empire 2](https://github.com/KaitoRyouga/PicoCTF-2019/tree/master/Empire%202)
 
 #### 15. [Java Script Kiddie 2](https://github.com/KaitoRyouga/PicoCTF-2019/tree/master/Java%20Script%20Kiddie%202)
 
