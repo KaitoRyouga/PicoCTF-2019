@@ -32,7 +32,7 @@
 
 #### 15. [Java Script Kiddie 2](https://github.com/KaitoRyouga/PicoCTF-2019/tree/master/Java%20Script%20Kiddie%202)
 
-#### 16. cereal hacker 1
+#### 16. [cereal hacker 1](https://github.com/KaitoRyouga/PicoCTF-2019/tree/master/cereal%20hacker%201)
 
 #### 17. Empire 3
 
