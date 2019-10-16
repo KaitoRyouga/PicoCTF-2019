@@ -2,7 +2,7 @@
 ---
 - 1 chút yêu cầu nho nhỏ cho người đọc bài:
   - Hiểu biết về `Burp suite`, ít thôi, không cần nhiều
-  - Biết *view source* và *F12*
+  - Biết *view source*, *F12* v chỉnh sửa cookie
   - Phần lớn các tool mình viết ra mình sẽ không giải thích (chủ yếu là python), mình chỉ giải thích về payload. Nếu không hiểu thì có thể *research* để biết thêm. *research* cũng không hiểu có thể post lên nhóm chat hoặc inbox hỏi mình
   - 1 vài tool nhỏ về *javascript* thì mình có dùng cách hơi xàm, nhưng vẫn ra flag. Mình chỉ lấy tool lại lúc mình giải bài này thôi, lúc đó cũng không rảnh mà viết ra 1 cái hoàn chình, thà làm tay còn nhanh hơn. Cũng vì 1 phần kiến thức *javascript* của mình hơi ít nữa
   
