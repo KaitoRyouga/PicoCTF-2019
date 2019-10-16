@@ -26,7 +26,7 @@
 
 #### 12. [JaWT Scratchpad](https://github.com/KaitoRyouga/PicoCTF-2019/tree/master/JaWT%20Scratchpad)
 
-#### 13. Java Script Kiddie
+#### 13. [Java Script Kiddie](https://github.com/KaitoRyouga/PicoCTF-2019/tree/master/Java%20Script%20Kiddie)
 
 #### 14. Empire 2
 
