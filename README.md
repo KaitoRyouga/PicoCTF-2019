@@ -8,7 +8,7 @@
   
 - Về các lỗi mà người ra đề đưa ra mình sẽ tổng hợp 1 cách chi tiết nhất có thể nếu có thời gian
 
-- Về phần câu Empire 1 nếu có thời gian mình sẽ giải lại theo cách hay hơn
+- Về phần câu Empire 1 nếu có thời gian mình sẽ giải lại theo cách hay hơn (s)
 
 - Về phần câu Empire 2 và 3 có cách nhanh hơn là dump data trực tiếp. Tuy nhiên cần nhiều kiến thức về flask. Các bạn có thể thử các payload này
 
