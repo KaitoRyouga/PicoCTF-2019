@@ -6,7 +6,7 @@
 
   ![header](header.png)
 
-- Từ đây ta có 16 bít đầu của ảnh, tương đương với 16 ký tự của key
+- Từ đây ta có 16 bit đầu của ảnh, tương đương với 16 ký tự của key
 
 - Ta chỉnh sửa lại code *js* để từ những bit trên đổi thành bit của đề đã cho (lưu ý đổi ảnh trên từ hex sang decimal). Mình đổi sẵn cho đỡ mất công
 
