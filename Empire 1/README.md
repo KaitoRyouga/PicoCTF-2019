@@ -96,4 +96,4 @@
 
 - Mạn phép không giải thích cái tool, có thể vừa xem vừa *research* để xem cách mình đã dùng để viết nên tool này
 
-- OK, sau 1 hồi xài cái cách vãi chưởng này thì cũng ra được flag. Mạn phép không show, các bạn nên tự làm dựa theo hướng dẫn của mình. Thực ra mình lười chạy lại để lấy flag :v
+- OK, sau 1 hồi xài cái cách vãi chưởng này thì cũng ra được flag. Mạn phép không show, các bạn nên tự làm dựa theo hướng dẫn của mình. Thực ra mình lười chạy lại để lấy flag, với nó cũng khá là lâu :v
