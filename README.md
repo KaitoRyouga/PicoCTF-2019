@@ -1,5 +1,10 @@
 # PicoCTF-2019
 ---
+- 1 chút yêu cầu nho nhỏ cho người đọc bài:
+  - Hiểu biết về `Burp suite`, ít thồi, không cần nhiều
+  - Phần lớn các tool mình viết ra mình sẽ không giải thích (chủ yếu là python), mình chỉ giải thích về payload. Nếu không hiểu thì có thể *research* để biết thêm. *research* cũng không hiểu có thể post lên nhóm chat hoặc inbox hỏi mình
+  - 1 vài tool nhỏ về *javascript* thì mình có dùng cách hơi xàm, nhưng vẫn ra flag. Mình chỉ lấy tool lại lúc mình giải bài này thôi, lúc đó cũng không rảnh mà viết ra 1 cái hoàn chình, thà làm tay còn nhanh hơn. Cũng vì 1 phần kiến thức *javascript* m
+---
 ### Mục lục
 
 #### 1. [Insp3ct0r](https://github.com/KaitoRyouga/PicoCTF-2019/tree/master/Insp3ct0r)
