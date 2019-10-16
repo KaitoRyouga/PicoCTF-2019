@@ -4,7 +4,7 @@
 
 - Bức ảnh đã cứu rỗi bài này của mình:
 
-  ![header](/home/kaito/Pictures/header.png)
+  ![header](header.png)
 
 - Từ đây ta có 16 bít đầu của ảnh, tương đương với 16 ký tự của key
 
@@ -176,7 +176,7 @@
 
 - Chạy code trên loacahost, tầm vài giây là ra rồi
 
-  ![1](/home/kaito/Pictures/Selection_001.png)
+  ![1](Selection_001.png)
 
   
 
