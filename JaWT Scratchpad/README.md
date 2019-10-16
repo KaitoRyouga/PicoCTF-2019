@@ -6,3 +6,4 @@
 - Nói luôn key của nó là: `ilovepico` cho ai muốn làm
 - Tool để crack mình sẽ up lên. Tuy nhiên để load được file `rockyou.txt` thì nó khá là không tưởng. Nó chứa gần 11 triệu pass cho đủ mọi thể loại :v
 - Ngoài ra các bạn có thể viết tool để chạy all trường hợp, không phải cứ chạy file `rockyou.txt` là sẽ ra, hên xui thôi. Nếu máy mạnh thì để chạy all trường hợp, chắc vài ngày là xong, mình chưa chạy thử nên cũng không biết
+- Link gốc tool ở đây, các bạn đọc để biết cách dùng: [Link](https://github.com/ticarpi/jwt_tool)
